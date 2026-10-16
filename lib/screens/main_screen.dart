@@ -32,27 +32,26 @@ class _MainScreenState extends State<MainScreen> {
         backgroundColor: AppTheme.surfaceColor,
         indicatorColor: AppTheme.primaryColor.withValues(alpha: 0.2),
         destinations: [
-        NavigationDestination(
-          icon: const Icon(Icons.pie_chart_outline),
-          selectedIcon: const Icon(Icons.pie_chart, color: AppTheme.primaryColor),
-          label: 'Summary',
-        ),
-        NavigationDestination(
-          icon: const Icon(Icons.restaurant_menu_outlined),
-          selectedIcon: const Icon(Icons.restaurant_menu, color: AppTheme.primaryColor),
-          label: 'Food Log',
-        ),
-        NavigationDestination(
-          icon: const Icon(Icons.qr_code_scanner_outlined),
-          selectedIcon: const Icon(Icons.qr_code_scanner, color: AppTheme.primaryColor),
-          label: 'Scanner',
-        ),
-        NavigationDestination(
-          icon: const Icon(Icons.monitor_weight_outlined),
-          selectedIcon: const Icon(Icons.monitor_weight, color: AppTheme.primaryColor),
-          label: 'Weight',
-        ),
-
+          NavigationDestination(
+            icon: const Icon(Icons.pie_chart_outline),
+            selectedIcon: const Icon(Icons.pie_chart, color: AppTheme.primaryColor),
+            label: 'Macros',
+          ),
+          NavigationDestination(
+            icon: const Icon(Icons.restaurant_outlined),
+            selectedIcon: const Icon(Icons.restaurant, color: AppTheme.primaryColor),
+            label: 'Meals',
+          ),
+          NavigationDestination(
+            icon: const Icon(Icons.local_dining_outlined),
+            selectedIcon: const Icon(Icons.local_dining, color: AppTheme.primaryColor),
+            label: 'Foods',
+          ),
+          NavigationDestination(
+            icon: const Icon(Icons.person_outline),
+            selectedIcon: const Icon(Icons.person, color: AppTheme.primaryColor),
+            label: 'Goals',
+          ),
         ],
       ),
     );
